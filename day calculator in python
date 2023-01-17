@@ -1,0 +1,16 @@
+from datetime import date
+
+print("Enter start date: ")
+year = int(input('Year: '))
+month = int(input('Month: '))
+day = int(input('Day: '))
+startdate = date(year, month, day)
+
+print("Enter enddate : ")
+year = int(input('Year: '))
+month = int(input('Month: '))
+day = int(input('Day: '))
+enddate = date(year, month, day)
+numberofdays = enddate - startdate
+
+print (numberofdays)
